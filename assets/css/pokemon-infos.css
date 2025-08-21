@@ -1,0 +1,145 @@
+.pokemonInfos {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 1rem;
+    align-self: flex-start;
+    position: fixed;
+    width: 95%;
+    z-index: 2;
+    box-shadow: 
+        0 2px 8px 0 rgba(0,0,0,0.10),
+        0 8px 32px 0 rgba(55, 65, 81, 0.25);
+    max-width: 750px;
+}
+
+.infoHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem .5rem 2rem;
+    border-radius: 1rem 1rem 3rem 3rem;
+}
+
+.pokemonInfos i {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: start;
+    width: 9%;
+}
+
+.infoName {
+    color: #fff;
+    font-size: 2.1rem;
+    text-transform: capitalize;
+    margin: .7rem 0;
+}
+
+.infoNumber {
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: right;
+    display: block;
+}
+
+.infoTypes {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.infoType {
+    color: #fff;
+    padding: .2rem 0.5rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    font-size: .9rem;
+}
+
+.infoContainer img {
+    width: 160px;
+    align-self: center;
+}
+
+.infoAbout {
+    padding: 1.5rem;
+}
+
+.infoBaseStats {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1.5rem;
+    margin: .5rem 0;
+}
+
+.infoStats {
+    color: #7a7a7a;
+}
+
+.progressBar, .progress {
+    height: 25px;
+}
+
+.progressBar{
+    background-color: #dddddd;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.progress {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    border-radius: .7rem;
+    color: #fff;
+}
+
+.hp {
+    width: 0%;
+}
+
+.atk {
+    width: 0%;        
+}
+
+.def {
+    width: 0%;    
+}
+
+.sAtk {
+    width: 0%;
+}
+
+.sDef {
+    width: 0%;
+}
+
+.spe {
+    width: 0%;
+}
+
+.green {
+    background-color: rgb(52, 252, 52);
+}
+
+.red {
+    background-color: rgb(255, 89, 89);
+}

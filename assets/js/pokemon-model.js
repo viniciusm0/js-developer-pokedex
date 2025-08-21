@@ -1,8 +1,17 @@
 
 class Pokemon {
-    number;
+    number;    
     name;
     type;
     types = [];
     photo;
+}
+
+class PokemonBaseStats {
+    hp;
+    attack;
+    defense;
+    specialAtk;
+    specialDef;
+    speed;
 }
