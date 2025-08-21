@@ -110,6 +110,7 @@
     padding: 1.25rem 1rem;
     color: #FFF;
     border-radius: .8rem;
+    cursor: pointer;
 }
 
 .pokemon .number {
@@ -174,6 +175,7 @@
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .9rem;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {

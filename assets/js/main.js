@@ -114,7 +114,7 @@ function loadPokemonInfos (id) {
     });
 }
 
-loadPokemonItens(offset, limit = 8);
+loadPokemonItens(offset, limit = 5);
 
 loadMoreButton.addEventListener('click', () => {
     offset += limit
